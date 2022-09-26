@@ -28,7 +28,7 @@ Essentials tools:
 - vnc (x2go)
 - latex, overleaf
 - git (e.g. https://github.com/astroumd/thesisware)
-            Facilities and Software
+      Facilities and Software
 - google docs / box / ...
 - C/C++/Fortran - python - R - julia - matlab - idl - mathematica
 - casa, pyraf, heasarch, chanda
@@ -45,11 +45,11 @@ Essentials tools:
   - zotero
 - makefile
 - how to get help:
-    <CMD> --help
-    <CMD> -h
-    man CMD
-    tldr CMD
-    zeal (linux) / dash (mac)
+    - <CMD> --help
+    - <CMD> -h
+    - man CMD
+    - tldr CMD
+    - zeal (linux) / dash (mac)
 - astroload (from /n/astromake)
 - modules
 - <ASK>  help@astro.umd.edu
