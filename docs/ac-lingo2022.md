@@ -16,9 +16,10 @@ ASTRO:
 Essentials tools:
 -----------------
 - unix [linux/macosx] shell (bash, tcsh, zsh, ...)
-  linux:   redhat, ubuntu
-  mac:     macosx (linux)
-  win:     WSL2 (=ubuntu)
+  - linux:   redhat, ubuntu
+  - mac:     macosx (linux)
+  - win:     WSL2 (=ubuntu)
+  - chrome:  linux container
 - X11 (Quartz on the mac w/ Xcode)
 - ssh, rsync, unison, timeshift   (password-less w/ ssh-copy-id)
 - editor (emacs, vim, sublime, ...)
@@ -53,7 +54,7 @@ Essentials tools:
 - modules
 - <ASK>  help@astro.umd.edu
   
-- computing hardware:   cpu - memory - hard drive (HDD/SDD) - network
+- **astronet hardware**:   cpu - memory - hard drive (HDD/SDD) - network
   - laptop, desktop :  "single cpu" (small core)
     [laptop can get hot and slow down]
   - departmental emergency laptop (Dell linux, MacBook/pro)
@@ -67,9 +68,9 @@ Essentials tools:
 
 Tips:
 
-  - stick to an editor
+  - stick to an editor (emacs, vim, sublime, ...)
   - if something becomes repetitive, "script it" and "benchmark it"
-    - bash/csh (WYSIWYG)
+    - bash/tcsh (WYSIWYG)
     - Makefile (WYSIWYG)
     - GNU parallel (WYSIWYG)
     - python
