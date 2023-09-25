@@ -1,16 +1,14 @@
-# Astro Computing Lingo (26-sep-2022) 
+# Astro Computing Lingo (25-sep-2023) 
 
 astronet
 --------
- 
-UMD:
+ UMD:
 
       username@umd.edu                       use this for email and all other official UMD stuff
-
 ASTRO:
 
       username@astro.umd.edu                 password is not shared with the umd.edu one!
-      ssh username@terra.astro.umd           to change the password, nightly redistributed
+      ssh username@terra.astro.umd.edu       to change the password, nightly redistributed
       https://www.astro.umd.edu/~username    $HOME/public_html/index.html   dept_info.{txt,jpg}
 
 Essentials tools:
@@ -53,18 +51,20 @@ Essentials tools:
 - astroload (from /n/astromake)
 - modules
 - <ASK>  help@astro.umd.edu
-  
-- **astronet hardware**:   cpu - memory - hard drive (HDD/SDD) - network
+- **astronet hardware**:   cpu - memory - hard drive (SSD/HDD) - network
   - laptop, desktop :  "single cpu" (small core)
-    [laptop can get hot and slow down]
+    [laptop can get hot and lower cpufreq]
   - departmental emergency laptop (Dell linux, MacBook/pro)
   - small clusters (yorpXX, astraXX)            
   - small groups (labXX)                   
   - GPU (gpuX)
   - raid storage (horizon)
-  - large core machines (lma, 32 cores/64 threads)
+  - large core machines (**lma**, 32 cores/64 threads)  
   - small core fast CPU (astraXX)
-  - big clusters (zaratan)
+  - big clusters (zaratan) - including GPU
+  - .
+  - .
+
 
 Tips:
 
@@ -77,3 +77,13 @@ Tips:
   - use single core parallel when possible (multi-core OpenMP is hard)
 
 
+Checklist:
+
+  - set up your accounts:   "umd" and "astro"
+  - set up your 2FA, so you can email and do wireless
+  - download VPN so you can "ssh astro.umd.edu" from home
+  - printing at "astro"
+
+This pages also on:   https://github.com/astroumd/astronet/blob/main/docs/ac-lingo2022.md
+
+Presentation on:      https://www.astro.umd.edu/~teuben/ACC/astr695-2023.pdf
