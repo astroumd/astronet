@@ -1,4 +1,4 @@
-# Astro Computing Lingo (25-sep-2023) 
+# Astro Computing Lingo (22-aug-2024) 
 
 astronet
 --------
@@ -86,4 +86,4 @@ Checklist:
 
 This pages also on:   https://github.com/astroumd/astronet/blob/main/docs/ac-lingo2022.md
 
-Presentation on:      https://www.astro.umd.edu/~teuben/ACC/astr695-2023.pdf
+Presentation on:      https://www.astro.umd.edu/~teuben/ACC/astr695-2024.pdf
