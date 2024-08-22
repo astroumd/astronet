@@ -8,17 +8,17 @@ astronet
 ASTRO:
 
       username@astro.umd.edu                 password is not shared with the umd.edu one!
-      ssh username@terra.astro.umd.edu       to change the password, nightly redistributed
+      ssh username@terra.astro.umd.edu       to change the password, redistributed hourly
       https://www.astro.umd.edu/~username    $HOME/public_html/index.html   dept_info.{txt,jpg}
 
 Essentials tools:
 -----------------
 - unix [linux/macosx] shell (bash, tcsh, zsh, ...)
   - linux:   redhat, ubuntu
-  - mac:     macosx (linux)
+  - mac:     macosx 
   - win:     WSL2 (=ubuntu)
   - chrome:  linux container
-- X11 (Quartz on the mac w/ Xcode)
+- X11 (Quartz on the mac w/ Xcode) (future: Wayland)
 - ssh, rsync, unison, timeshift   (password-less w/ ssh-copy-id)
 - editor (emacs, vim, sublime, ...)
 - vpn
@@ -41,15 +41,15 @@ Essentials tools:
   - jstor.org
   - arXiv:  RSS feed, e.g. feedly.com
   - zotero
-- makefile
+- Makefile
 - how to get help:
     - <CMD> --help
     - <CMD> -h
     - man CMD
     - tldr CMD
     - zeal (linux) / dash (mac)
-- astroload (from /n/astromake)
-- modules
+- astroload (from /n/astromake) and "rc"
+- modules ("module load gcc-12")
 - <ASK>  help@astro.umd.edu
 - **astronet hardware**:   cpu - memory - hard drive (SSD/HDD) - network
   - laptop, desktop :  "single cpu" (small core)
@@ -68,7 +68,7 @@ Essentials tools:
 
 Tips:
 
-  - stick to an editor (emacs, vim, sublime, ...)
+  - stick to a colorizing editor (emacs, vim, sublime, VScode, ...)
   - if something becomes repetitive, "script it" and "benchmark it"
     - bash/tcsh (WYSIWYG)
     - Makefile (WYSIWYG)
@@ -76,14 +76,13 @@ Tips:
     - python
   - use single core parallel when possible (multi-core OpenMP is hard)
 
-
 Checklist:
 
   - set up your accounts:   "umd" and "astro"
   - set up your 2FA, so you can email and do wireless
-  - download VPN so you can "ssh astro.umd.edu" from home
+  - download VPN so you can "ssh astro.umd.edu" from home (future)
   - printing at "astro"
 
-This pages also on:   https://github.com/astroumd/astronet/blob/main/docs/ac-lingo2022.md
+This page also on:   https://github.com/astroumd/astronet/blob/main/docs/ac-lingo2022.md
 
-Presentation on:      https://www.astro.umd.edu/~teuben/ACC/astr695-2024.pdf
+Presentation on:     https://www.astro.umd.edu/~teuben/ACC/astr695-2024.pdf
