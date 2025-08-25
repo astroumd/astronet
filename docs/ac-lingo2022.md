@@ -17,19 +17,19 @@ Essentials tools:
   - mac:     macosx 
   - win:     WSL2 (=ubuntu)
   - chrome:  linux container
-- X11 (Quartz on the mac w/ Xcode) (linux future: Wayland)
+- X11   (Quartz on the mac w/ Xcode, Wayland is the linux future)
 - ssh, rsync, unison, timeshift   (password-less w/ ssh-copy-id)
 - kerberos (kinit, klist)
-- editor (emacs, vim, sublime, vs code, ...)
-- vpn (UMD: globalprotect from Palo Alto)
+- editor (emacs, vim, sublime, vs/code, ...)
+- VPN (UMD: globalprotect from Palo Alto)
 - tmux/screen
 - vnc (x2go)
 - latex, overleaf
-- git (e.g. https://github.com/astroumd/thesisware)
+- git, gh (e.g. https://github.com/astroumd/thesisware)
       Facilities and Software
 - google docs / box / ...
 - C/C++/Fortran - python - R - julia - matlab - idl - mathematica
-- casa, pyraf, heasarch, chanda
+- casa, pyraf, heasarch, chanda, ipython/astropy
 - https://ascl.net    (3000+ codes)
    anatomy of a code:
    - download
@@ -53,16 +53,13 @@ Essentials tools:
 - <ASK>  help@astro.umd.edu
 - **astronet hardware**:   cpu - memory - hard drive (SSD/HDD) - network
   - laptop, desktop :  "single cpu" (small core)
-    [laptop can get hot and lower your cpufreq]
+        [laptop can get hot and lower your cpufreq]
   - departmental emergency laptop (Dell linux, MacBook/pro)
-  - small clusters (yorpXX, astraXX)            
-  - small groups (labXX)                   
-  - GPU (gpuX)
+  - small clusters (astraXX) - some with GPU  (use:  hpc-reserve)
+  - small groups (labXX) - (use:  hpc-reserve)
   - raid storage (horizon)
-  - large core machines (**lma**, 32 cores/64 threads)  
-  - small core fast CPU (astraXX)
+  - large core machines (**lma**, 32 cores/64 threads) 
   - big clusters (zaratan) - including GPU
-  - .
 
 Tips:
 
@@ -73,15 +70,15 @@ Tips:
     - GNU parallel (WYSIWYG)
     - python
   - use single core parallel when possible (multi-core OpenMP is hard)
-  - security:   ssh keys / kerberos tickets ;   KDE Wallet | keyring | keychain
+  - convenient security:   ssh keys / kerberos tickets ;   KDE Wallet | keyring | keychain
 
 Checklist:
 
   - set up your accounts:   "umd" and "astro"
+  - set up your eduroam certificate for wireless
   - set up your 2FA, so you can email and do wireless
   - download VPN so you can "ssh astro.umd.edu" from home (future)
-  - set up your eduroam certificate
-  - printing at "astro"
+  - printing at "astro" (cups)
 
 This page also on:   https://github.com/astroumd/astronet/blob/main/docs/ac-lingo2022.md
 
