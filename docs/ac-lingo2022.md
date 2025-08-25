@@ -1,14 +1,13 @@
-# Astro Computing Lingo (22-aug-2024) 
+# Astro Computing Lingo (25-aug-2025) 
 
 astronet
 --------
  UMD:
 
       username@umd.edu                       use this for email and all other official UMD stuff
-ASTRO:
+ ASTRO:
 
-      username@astro.umd.edu                 password is not shared with the umd.edu one!
-      ssh username@terra.astro.umd.edu       to change the password, redistributed hourly
+      username@astro.umd.edu                 password same as your umd.edu https://password.umd.edu
       https://www.astro.umd.edu/~username    $HOME/public_html/index.html   dept_info.{txt,jpg}
 
 Essentials tools:
@@ -18,10 +17,11 @@ Essentials tools:
   - mac:     macosx 
   - win:     WSL2 (=ubuntu)
   - chrome:  linux container
-- X11 (Quartz on the mac w/ Xcode) (future: Wayland)
+- X11 (Quartz on the mac w/ Xcode) (linux future: Wayland)
 - ssh, rsync, unison, timeshift   (password-less w/ ssh-copy-id)
-- editor (emacs, vim, sublime, ...)
-- vpn
+- kerberos (kinit, klist)
+- editor (emacs, vim, sublime, vs code, ...)
+- vpn (UMD: globalprotect from Palo Alto)
 - tmux/screen
 - vnc (x2go)
 - latex, overleaf
@@ -30,7 +30,7 @@ Essentials tools:
 - google docs / box / ...
 - C/C++/Fortran - python - R - julia - matlab - idl - mathematica
 - casa, pyraf, heasarch, chanda
-- https://ascl.net    (2000+ codes)
+- https://ascl.net    (3000+ codes)
    anatomy of a code:
    - download
    - install
@@ -53,7 +53,7 @@ Essentials tools:
 - <ASK>  help@astro.umd.edu
 - **astronet hardware**:   cpu - memory - hard drive (SSD/HDD) - network
   - laptop, desktop :  "single cpu" (small core)
-    [laptop can get hot and lower cpufreq]
+    [laptop can get hot and lower your cpufreq]
   - departmental emergency laptop (Dell linux, MacBook/pro)
   - small clusters (yorpXX, astraXX)            
   - small groups (labXX)                   
@@ -63,8 +63,6 @@ Essentials tools:
   - small core fast CPU (astraXX)
   - big clusters (zaratan) - including GPU
   - .
-  - .
-
 
 Tips:
 
@@ -75,14 +73,16 @@ Tips:
     - GNU parallel (WYSIWYG)
     - python
   - use single core parallel when possible (multi-core OpenMP is hard)
+  - security:   ssh keys / kerberos tickets ;   KDE Wallet | keyring | keychain
 
 Checklist:
 
   - set up your accounts:   "umd" and "astro"
   - set up your 2FA, so you can email and do wireless
   - download VPN so you can "ssh astro.umd.edu" from home (future)
+  - set up your eduroam certificate
   - printing at "astro"
 
 This page also on:   https://github.com/astroumd/astronet/blob/main/docs/ac-lingo2022.md
 
-Presentation on:     https://www.astro.umd.edu/~teuben/ACC/astr695-2024.pdf
+Presentation on:     https://www.astro.umd.edu/~teuben/ACC/astr695-2025.pdf
