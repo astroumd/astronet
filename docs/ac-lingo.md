@@ -80,6 +80,6 @@ Checklist:
   - download VPN so you can "ssh astro.umd.edu" from home (future)
   - printing at "astro" (cups)
 
-This page also on:   https://github.com/astroumd/astronet/blob/main/docs/ac-lingo2022.md
+This page also on:   https://github.com/astroumd/astronet/blob/main/docs/ac-lingo.md
 
 Presentation on:     https://www.astro.umd.edu/~teuben/ACC/astr695-2025.pdf
