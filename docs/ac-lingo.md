@@ -20,7 +20,7 @@ Essentials tools:
 - X11   (Quartz on the mac w/ Xcode, Wayland is the linux future)
 - ssh, rsync, unison, timeshift   (password-less w/ ssh-copy-id)
 - kerberos (kinit, klist)
-- editor (emacs, vim, sublime, vs/code, ...)
+- editor (emacs, vim, nano, /sublime, vs/code, ...)
 - VPN (UMD: globalprotect from Palo Alto)
 - tmux/screen
 - vnc (x2go)
@@ -48,6 +48,7 @@ Essentials tools:
     - man CMD
     - tldr CMD
     - zeal (linux) / dash (mac)
+    - https://ai.umd.edu/resources/services/terpai  (Office365)
 - astroload (from /n/astromake) and "rc"
 - modules ("module load gcc-12")
 - <ASK>  help@astro.umd.edu
